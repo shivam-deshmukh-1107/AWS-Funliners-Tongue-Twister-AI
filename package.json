@@ -1,0 +1,16 @@
+{
+  "name": "tongue-twister-skill",
+  "version": "1.0.0",
+  "description": "Returns a tongue twister",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rizmax Academy",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.10",
+    "ask-sdk-model": "^1.6.0"
+  }
+}

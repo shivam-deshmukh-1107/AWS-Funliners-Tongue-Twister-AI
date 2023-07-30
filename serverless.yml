@@ -1,0 +1,21 @@
+service: tongueTwister
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: prod
+  # For Customers/Devices located in North America, use us-east-1 
+  # For Customers/Devices located in Europe and India, use eu-west-1
+  # For Customers/Devices located in Far East, use us-west-2 or ap-northeast-1
+  region: us-east-1
+  memorySize: 128
+  timeout: 5
+  environment:
+    ALEXA_SKILL_ID: amzn1.ask.skill.930dd33d-237f-4200-9272-876c5582aad5
+
+functions:
+  tongueTwister:
+    handler: index.handler
+    name: ${self:service}-${self:provider.stage}
+    events:
+      - alexaSkill: ${self:provider.environment.ALEXA_SKILL_ID}
