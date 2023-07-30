@@ -1,0 +1,97 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fun liners",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetNewFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "tell me a fun liner",
+                        "give me a fun liner",
+                        "get me a tongue twister",
+                        "a twister",
+                        "give me a tongue twister",
+                        "give me a twister",
+                        "give me some tongue twister information",
+                        "sing a tongue twister",
+                        "sing a twister",
+                        "tell me a tongue twister phrase",
+                        "tell me a tongue twister sentence",
+                        "tell me a tongue twister line",
+                        "tell me a twister line",
+                        "tell me a twister sentence",
+                        "tell me a twister phrase",
+                        "tell me a twister",
+                        "tell me a tongue twister",
+                        "give me some information",
+                        "tell me something",
+                        "give me something"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnotherFactIntent",
+                    "slots": [],
+                    "samples": [
+                        "different one",
+                        "something else please",
+                        "something else",
+                        "next one",
+                        "another fun liner",
+                        "another tongue twister",
+                        "another one please",
+                        "another"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "repeat last fun liner",
+                        "repeat fun liner",
+                        "repeat last twister",
+                        "repeat the last tongue twister",
+                        "repeat",
+                        "repeat last one",
+                        "repeat the last one",
+                        "please repeat"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "Thankyou so much",
+                        "Thanks",
+                        "Thankyou fun liners",
+                        "Thank you",
+                        "No"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
